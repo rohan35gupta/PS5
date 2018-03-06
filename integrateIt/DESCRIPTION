@@ -1,0 +1,17 @@
+Package: integrateIt
+Title: Approximating definite integrals
+Version: 0.1
+Author: Rohan Gupta
+Maintainer: Rohan Gupta <rohangupta@wustl.edu>
+Description: Find the area under parabola using Trapezoid or Simpsons rule
+Depends:
+  R (>= 3.0.0),
+  methods
+License: GPL (>= 2)
+Suggests:
+  devtools
+Collate:
+  'integrateIt.R'
+  'Trapezoid.R'
+  'Simpson.R'
+RoxygenNote: 6.0.1
